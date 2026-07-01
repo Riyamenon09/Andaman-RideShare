@@ -1,65 +1,86 @@
-Andaman RideShare 🚗🌴
+# 🚗 Andaman RideShare
 
-A full-stack carpooling platform built for the Andaman Islands, allowing users to find, share, and book rides in a seamless way.
-The platform is designed to connect drivers with available seats to passengers heading in the same direction, reducing travel costs and promoting sustainable shared travel.
+A full-stack ride-sharing platform built for the **Andaman Islands**, enabling users to **find, offer, and book rides** with ease. The platform connects drivers with passengers traveling in the same direction, helping reduce travel costs while encouraging sustainable transportation.
 
-Built with a Flask (Python) backend, MongoDB database, and a Bootstrap-powered responsive frontend, it integrates REST APIs for ride search and autocomplete, along with secure user authentication.
+Built using **Flask**, **MongoDB**, **Bootstrap**, and **REST APIs**, the application provides secure authentication, ride management, intelligent search, and a responsive user interface.
 
-✨ Features
-🔑 Authentication & Security
+---
 
-User registration and login with password hashing (Werkzeug)
+## 📸 Application Preview
 
-Session management to keep users logged in securely
+<p align="center">
+  <img src="images/homepage.png" alt="Andaman RideShare Homepage" width="900">
+</p>
 
-Protection against invalid inputs and unauthorized access
+> Save your screenshot inside an **images** folder as **homepage.png**.
 
-🚗 Ride Management
+---
 
-Drivers can post rides with origin, destination, available seats, and price per person
+## ✨ Features
 
-Passengers can search and book rides based on location and number of passengers
+### 🔐 Authentication & Security
+- User Registration & Login
+- Password hashing using **Werkzeug**
+- Secure session management
+- Input validation and protected routes
 
-Automatic seat availability updates after booking
+### 🚗 Ride Management
+- Drivers can publish rides
+- Passengers can search available rides
+- Book rides instantly
+- Automatic seat availability updates
+- Ride details include:
+  - Pickup location
+  - Destination
+  - Travel date
+  - Available seats
+  - Price per passenger
 
-🔎 Smart Search & Autocomplete
+### 🔍 Smart Search
+- Search rides by origin and destination
+- Passenger count filtering
+- Female driver preference filter
+- Real-time autocomplete suggestions
+- REST API powered search endpoints
 
-REST API endpoints to fetch available places and rides
+### 💻 Responsive User Interface
+- Clean and intuitive design
+- Fully responsive for desktop and mobile
+- Bootstrap components
+- Dynamic pages using Jinja2 templates
+- Client-side form validation
 
-Real-time autocomplete suggestions while typing pickup/destination
+### 🗄️ Database Management
+MongoDB collections for:
 
-Search filtering by passenger count and optional female drivers only filter
+- Users
+- Drivers
+- Rides
+- Bookings
 
-💻 Responsive Frontend
+Stores:
 
-Built with HTML, CSS, JavaScript, Bootstrap for a clean user experience
+- Driver details
+- Passenger bookings
+- Seat availability
+- Ride pricing
+- Ride status
 
-Fully responsive design optimized for desktop and mobile devices
+---
 
-Modern UI with form validation, autocomplete dropdowns, and dynamic redirects
+# 🛠️ Tech Stack
 
-📊 Database & Data Handling
+| Category | Technologies |
+|----------|--------------|
+| **Backend** | Flask (Python), REST API |
+| **Database** | MongoDB |
+| **Frontend** | HTML5, CSS3, JavaScript, Bootstrap |
+| **Templating Engine** | Jinja2 |
+| **Authentication** | Werkzeug Password Hashing, Flask Sessions |
+| **Database Connector** | PyMongo |
+| **Environment Management** | python-dotenv |
 
-MongoDB collections for users, rides, and bookings
+---
+# 👩‍💻 Author
 
-Flexible schema to store driver details, ride info, pricing, and status
-
-Queries optimized with filters for seats, gender, origin, and destination
-
-🛠️ Tech Stack
-
-Backend: Flask (Python), REST API
-
-Database: MongoDB (NoSQL, document-oriented)
-
-Frontend: HTML, CSS, JavaScript, Bootstrap (responsive UI)
-
-Authentication: Werkzeug (password hashing), Flask session management
-
-Other Tools:
-
-PyMongo for database connectivity
-
-dotenv for environment variable management
-
-Jinja2 templating engine for dynamic HTML rendering
+**Riya S Menon**
