@@ -12,7 +12,7 @@ Built using **Flask**, **MongoDB**, **Bootstrap**, and **REST APIs**, the applic
   <img src="images/homepage.png" alt="Andaman RideShare Homepage" width="900">
 </p>
 
-> Save your screenshot inside an **images** folder as **homepage.png**.
+
 
 ---
 
